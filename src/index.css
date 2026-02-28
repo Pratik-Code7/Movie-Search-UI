@@ -1,0 +1,51 @@
+@import "tailwindcss";
+.scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.poptxt {
+  /* font-size: 12px; */
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  color: white;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+}
+.poptxt span i {
+  color: #ffc107;
+}
+.st {
+  color: rgba(128, 128, 128, 0.6);
+}
+/* .ldiv {
+  background: linear-gradient(toright, black, rgba(0, 0, 0, 2));
+} */
+.i {
+  font-size: 1.3rem;
+}
+.overlay {
+  background:
+    linear-gradient(
+      to right,
+      black,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0)
+    ),
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0)
+    );
+}
+.overlay2 {
+  background: linear-gradient(to top, black, rgba(0, 0, 0, 0));
+}
+/* .a1 {
+  display: none;
+} */
+.a1::-webkit-scrollbar {
+  display: none;
+}
+/* .pointer {
+  cursor: pointer;
+} */
